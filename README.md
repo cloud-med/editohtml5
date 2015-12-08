@@ -7,7 +7,7 @@ It allows you to add to a picture inside your web page:
 - Textual notes
 - Tags
 
-# SANDBOX
+# TRY IT!
 Try it! [http://editorhtml5.link-up.it/]
 
 # INSTALLATION
