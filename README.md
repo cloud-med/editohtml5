@@ -1,4 +1,4 @@
-![Preview](\images\2015\12\screen.bmp)
+![Preview](\img\screen.bmp)
 
 # EDITORHTML5
 Editorhtml5 is an editor for annotating images in html pages, developed by Link-Up as a part of CloudMED project [http://www.cloudmed.it].
