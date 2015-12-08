@@ -1,23 +1,40 @@
-# EDITORHTML5
-Editorhtml5 è un editor per l'annotazione di immagini in pagine html.
-Consente di associare ad un'immagine:
-- annotazioni grafiche quali cerchi, rettangoli, poligoni e disegni a mano libera;
-- annotazionei testuali costituite da testo libero
-- tag
+Summer html image map creator
+=============================
+[http://github.com/summerstyle/summer] (http://github.com/summerstyle/summer)
 
-# INSTALLAZIONE
+Released under the GPL3 (GPL3.txt)
 
-L'installazione avviene semplicemente scaricando l'archivio e decomprimendolo.
-Per anntotare un'immagine diversa da quella preconfigurata, è sufficiente sostituire nel file “pagina1.html” il valore dell’attributo src dell’emento img con il percorso dell’immagine che si intende annotare.
+Main
+----------------
+`F5` — reload the page and display the form for loading image again
 
-# UTILIZZO
+`S` — save map params in localStorage
 
-Aprendo il file "pagina1.html" sarà possibile incominciare ad utilizzare l'editor.
-Si potrà:
-- disegnare una nuova immagine cliccando sui bottoni dedicati;
-- modificare un'immagine esistente cliccando sul bottone "note-mod"
-- inserire un'annotazione testuale facendo doppio click sull'annotazione grafica alla quale si riferisce
-- inserire un tag utilizzando il carattere # ed iniziando a digitare il tag (i tag sono caricati da un file json che contiene le voci di icd9)
+Drawing mode (rectangle / circle / polygon)
+-------------------------------------------
+`ENTER` — stop polygon drawing (or click on first helper)
 
+`ESC` — cancel drawing of a new area
 
+`SHIFT` — square drawing in case of a rectangle and right angle drawing in case of a polygon
 
+Editing mode
+------------
+
+`DELETE` — remove a selected area
+
+`ESC` — cancel editing of a selected area
+
+`SHIFT` — edit and save proportions for rectangle
+
+`I` — edit attributes of a selected area (or dblclick on an area)
+
+`CTRL` + `C` — a copy of the selected area
+
+`↑` — move a selected area up
+
+`↓` — move a selected area down
+
+`←` — move a selected area to the left
+
+`→` — move a selected area to the right
