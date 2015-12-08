@@ -1,4 +1,4 @@
-![Alt text](https://github.com/mgravina1/editohtml5/img/screen.bmp)
+![Alt text](img/screen.bmp)
 
 # EDITORHTML5
 Editorhtml5 is an editor for annotating images in html pages, developed by Link-Up as a part of CloudMED project [http://www.cloudmed.it].
